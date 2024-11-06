@@ -19,12 +19,12 @@
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
+                        <xs:attribute name="dateDebut" type="xs:date" use="required"/>
+                        <xs:attribute name="dateFin" type="xs:date" use="required"/>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>
+            <xs:attribute name="RIB" type="xs:string" use="required"/>
         </xs:complexType>
     </xs:element>
-    <xs:attribute name="RIB" type="xs:string"/>
-    <xs:attribute name="dateDebut" type="xs:date"/>
-    <xs:attribute name="dateFin" type="xs:date"/>
 </xs:schema>
