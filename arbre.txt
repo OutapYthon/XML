@@ -1,0 +1,12 @@
+releve
+	@RIB
+	dateReleve
+	solde
+	+ operations
+		@dateDebut
+		@dateFin
+		+ operation
+			@type
+			@date
+			@montant
+			@description
